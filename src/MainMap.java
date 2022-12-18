@@ -51,13 +51,15 @@ public class MainMap {
         map4.put(Level.FREE,"Gratis");
         map4.put(Level.STANDARD, "Bayar");
         map4.put(Level.PREMIUM, "Bayar");
+        map4.put(Level.PLATINUM, "Bayar");
 
         System.out.println(map4.get(Level.FREE));
         System.out.println(map4.get(Level.STANDARD));
         System.out.println(map4.get(Level.PREMIUM));
+        System.out.println(map4.get(Level.PLATINUM));
     }
 
     public static enum Level {
-        FREE, STANDARD, PREMIUM;
+        FREE, STANDARD, PREMIUM, PLATINUM;
     }
 }
