@@ -6,7 +6,7 @@ import java.util.Queue;
 public class QueueCollection {
     public static void main(String[] args) {
         Queue<String> queue = new ArrayDeque<>(10);
-        queue.offer("Aldi Rifaldi");
+        queue.offer("Aldi");
 
 
     }
